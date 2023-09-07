@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #gen{
+            margin-right: 60px;
+        }
+
+        #bor{
+            border: 2px solid blue;
+            margin-left: 650px;
+            margin-right: 650px;
+            padding-bottom: 60px;
+            padding-top: 30px;
+            background-color: rgb(173, 235, 214);
+        }
+        #re{
+            height: 36px;
+            border-radius: 13px;
+            width: 86px;
+            border: none;
+            color: black;
+            background-color: rgb(16, 200, 228);
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="bor">
+    <center>
+        <h2 style="color: #f40707;">STUDENT REGISTRATION FORM</h2>
+        <br><br>
+        <form action="/first.html" target="_blank">
+            <table>
+                <tr>
+                    <td>
+                    <label for="fname">First Name</label>
+                    </td>
+                    <td>
+                    <input type="text" name="fname" id="fname" placeholder="Enter First name">
+                    </td>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td>
+                    <label for="lname">Last Name</label>
+                    </td>
+                    <td>
+                    <input type="text" name="lname" id="lname" placeholder="Enter Last name">
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender</label>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="male">Male &nbsp; &nbsp;
+                        <input type="radio" name="gender" value="Female">Female        
+                    </td>
+              </tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr>
+                <td>
+                <label for="age">Age</label>
+                </td>
+                <td>
+                    <input type="number" name="age" id="age" placeholder="Enter your age">
+                </td>
+              </tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr>
+                <td>
+                    <label for="dob">Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date" name="" id="">
+                </td>
+              </tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr>
+                <td>
+                    <label for="email">Email </label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email" placeholder="enter your email " size="22">
+                </td>
+              </tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr>
+                <td>
+                    <label for="pass">Password </label>
+                </td>
+                <td>
+                    <input type="password" name="pass"  placeholder="enter your pass min 8 char" min="8" required>
+                </td>
+              </tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr>
+                <td>
+                    <label for="pass1">Confirm <br> Password </label>
+                </td>
+                <td>
+                    <input type="password" name="pass1"  placeholder="Confirm" >
+                </td>
+              </tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr>
+                <td>
+                    <label for="pass1">Phone Number</label>
+                </td>
+                <td>
+                    <select name="ph" id="ph">
+                        <option value="+91">+91</option>
+                        <option value="+90">+90</option>
+                        <option value="+90">+89</option>
+                        <option value="+90">+88</option>
+                        <option value="+90">+87</option>
+                    </select>
+                    &nbsp; &nbsp;<input type="number" name="num" id="num" placeholder="enter your phone number">
+                </td>
+              </tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr>
+                <td><label for="add">Address</label></td>
+                <td>
+                    <textarea name="" id="" cols="30" rows="7" placeholder="enter your address"></textarea>
+                </td>
+             </tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr>
+                <td><label for="state">State</label></td>
+                <td><select name="" id="" >
+                        <option value="--Select your state--">--Select your state--</option>
+                        <option value="TAMILNADU">TAMILNADU</option>
+                        <option value="KERALA">KERALA</option>
+                        <option value="ANDRA">ANDRA</option>
+                        <option value="PUNE">PUNE</option>
+                    </select></td>
+             </tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr>
+                <td><label for="pin">Pin Code</label></td>
+                <td><input type="number" name="pin" id="pin" placeholder="Enter your pin code"></td>
+             </tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr>
+                <td><label for="hobi">Hobbies</label></td>
+                <td><input type="checkbox" value="Music">Music &nbsp; &nbsp; <input type="checkbox" value="sports">sports &nbsp; &nbsp; <input type="checkbox" value="Movies">Movies &nbsp; &nbsp; <input type="checkbox" value="Movies">Travel</td>
+             </tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr>
+                <td><label for="pho">Upload photo</label></td>
+                <td><input type="file" name="ph" id="ph"></td>
+             </tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr>
+                <td><input type="checkbox">I hereby declare that the above </td>
+                <td>information provided is true and correct</td>
+             </tr>
+            </table>
+
+
+
+
+
+
+    </center>
+    <br><br>
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    <button id="re" type="submit">Register</button>
+   
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    <button type="reset" id="re"><b>Reset</b></button>
+
+</div>
+</body>
+</html>
